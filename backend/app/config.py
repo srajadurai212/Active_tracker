@@ -5,7 +5,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
-    DATABASE_URL: str = "postgresql+asyncpg://activitytracker_dev_user:activity4dev18762@157.173.220.118:10000/activitytracker"
+    DATABASE_URL: str = "postgresql+asyncpg://raja:Muthulingam@12345@raja.postgres.database.azure.com:5432/activetrackerdb?ssl=require"
     SECRET_KEY: str = "change-me-in-production"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60

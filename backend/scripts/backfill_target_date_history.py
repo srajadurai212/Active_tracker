@@ -28,7 +28,7 @@ from sqlalchemy import select, func
 
 from app.db.models import Activity, TargetDateHistory, User
 
-DATABASE_URL = "postgresql+asyncpg://activitytracker_dev_user:activity4dev18762@157.173.220.118:10000/activitytracker"
+DATABASE_URL = "postgresql+asyncpg://raja:Muthulingam@12345@raja.postgres.database.azure.com:5432/activetrackerdb?ssl=require"
 EXCEL_PATH = Path(__file__).parent.parent.parent.parent / "IZ - Leads Activity Tracker.xlsx"
 
 
